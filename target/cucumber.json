@@ -1,0 +1,571 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 165761200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:46.037Z",
+        "line": 5,
+        "name": "Verify that user resource can be created",
+        "description": "",
+        "id": "tutorial-feature;verify-that-user-resource-can-be-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996893300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1988300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be created",
+            "match": {
+              "location": "steps.MyStepdefs.userMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.223Z",
+        "line": 9,
+        "name": "Verify that user updated successfully",
+        "description": "",
+        "id": "tutorial-feature;verify-that-user-updated-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94780800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "updating user",
+            "match": {
+              "location": "steps.MyStepdefs.updatingUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user got updated",
+            "match": {
+              "location": "steps.MyStepdefs.userGotUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.329Z",
+        "line": 14,
+        "name": "Verify that user deleted successfully",
+        "description": "",
+        "id": "tutorial-feature;verify-that-user-deleted-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94194400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user got deleted",
+            "match": {
+              "location": "steps.MyStepdefs.userGotDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.432Z",
+        "line": 18,
+        "name": "Verify that user description gets updated",
+        "description": "",
+        "id": "tutorial-feature;verify-that-user-description-gets-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92224300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user description gets updated",
+            "match": {
+              "location": "steps.MyStepdefs.userDescriptionGetsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 819800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.535Z",
+        "line": 22,
+        "name": "Verify that title field is required",
+        "description": "",
+        "id": "tutorial-feature;verify-that-title-field-is-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89399300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "creating without title",
+            "match": {
+              "location": "steps.MyStepdefs.creatingWithoutTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "error shown",
+            "match": {
+              "location": "steps.MyStepdefs.errorShown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.635Z",
+        "line": 27,
+        "name": "Verify that title should only be test",
+        "description": "",
+        "id": "tutorial-feature;verify-that-title-should-only-be-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94704500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "creating with title",
+            "match": {
+              "location": "steps.MyStepdefs.creatingWithTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "title should be test",
+            "match": {
+              "location": "steps.MyStepdefs.titleShouldBeTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 993800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.737Z",
+        "line": 32,
+        "name": "Verify error is thrown when title is given in alphanumeric characters",
+        "description": "",
+        "id": "tutorial-feature;verify-error-is-thrown-when-title-is-given-in-alphanumeric-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "details",
+            "match": {
+              "location": "steps.MyStepdefs.details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102304500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "modifying details",
+            "match": {
+              "location": "steps.MyStepdefs.modifyingDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "error thrown",
+            "match": {
+              "location": "steps.MyStepdefs.errorThrown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.846Z",
+        "line": 37,
+        "name": "Verify the description getting updated",
+        "description": "",
+        "id": "tutorial-feature;verify-the-description-getting-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "details",
+            "match": {
+              "location": "steps.MyStepdefs.details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106040700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "creating description",
+            "match": {
+              "location": "steps.MyStepdefs.creatingDescription()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "description gets updated",
+            "match": {
+              "location": "steps.MyStepdefs.descriptionGetsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Creating a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-16T11:31:47.961Z",
+        "line": 42,
+        "name": "Verify the id should not accept alphanumeric characters",
+        "description": "",
+        "id": "tutorial-feature;verify-the-id-should-not-accept-alphanumeric-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "test details",
+            "match": {
+              "location": "steps.MyStepdefs.testDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107945100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "creating id with alphanumeric char",
+            "match": {
+              "location": "steps.MyStepdefs.creatingIdWithAlphanumericChar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "error is shown",
+            "match": {
+              "location": "steps.MyStepdefs.errorIsShown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tutorial feature",
+    "description": "",
+    "id": "tutorial-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Tutorial.feature",
+    "tags": []
+  }
+]

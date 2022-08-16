@@ -1,0 +1,23 @@
+{
+  "createRequest": {
+    "title": "tester",
+    "description": "capg",
+    "published": true
+  },
+  "putRequest": {
+    "title1": "test",
+    "description1": "automation",
+    "published1": true
+  },
+  "putRequest1": {
+    "title2": "unit-test",
+    "description2": "manual-testing",
+    "published2": false
+  },
+  "putRequest2": {
+    "id3": "456",
+    "title3": "smoke test",
+    "description3": "automate",
+    "published3": true
+  }
+}
